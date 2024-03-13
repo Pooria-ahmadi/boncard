@@ -114,6 +114,37 @@
         </ul>
       </div>
     </div>
+    <h1 class="is-size-3 mb-6 has-text-weight-semibold has-text-centered">بن کارت</h1>
+    <div class="columns is-justify-content-center mt-4 mx-0">
+      <div class="column is-one-quarter mx-6">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="Cheese.jpg" alt="">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="has-text-weight-semibold is-size-5" style="color: orange;">پکیج 1</p>
+            <p class="mt-3">بن کارت</p>
+<a href="/packone" class="button is-link is-rounded mt-6 has-text-weight-semibold">خرید </a>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter mx-6">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="Cheese.jpg" alt="">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="has-text-weight-semibold is-size-5" style="color: orange;">پکیج 2</p>
+            <p class="mt-3">بن کارت</p>
+<a href="/" class="button is-link is-rounded mt-6 has-text-weight-semibold">خرید </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <section>
       <hr>
       <div class="columns has-text-right has-background-light mx-0">
