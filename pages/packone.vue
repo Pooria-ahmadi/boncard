@@ -1,23 +1,22 @@
 <template>
-    <div>
-        <div class="columns is-centered mx-4 my-6 is-vcentered">
+  <div>
+    <div class="columns is-centered mx-4 my-6 is-vcentered">
       <div class="column line-height-description has-text-justified is-two-fifths margin">
         <p class="is-size-3 mb-6 has-text-weight-semibold">
-          بن کارت فروشگاه ...
+          لورم ایپسوم
         </p>
         <p class="is-size-5">
-          بن کارت ایرانیان کارت الکترونیکی می‌باشد که سازمان‌ها، ارگان‌ها، و شرکت‌های دولتی و خصوصی می‌توانند مبالغ
-          کمک‌های غیرنقدی اهدایی به کارکنان خود را به جای اینکه به صورت کالا و یا بن‌کارت‌های کاغذی ارائه دهند در این
-          کارت شارژ نموده و بر حسب نیاز کارمندان خود، از فروشگاه‌های آنلاین و فیزیکی طرف قرارداد <strong>شرکت
-            الف</strong> استفاده
-          نمایند.
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+          هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و
+          متخصصان را می طلبد
         </p>
       </div>
       <div class="column is-two-fifths margin">
         <div class="has-text-centered">
-          <img src="boncard.png" alt="">
+          <img src="packgold.jpg" alt="">
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "animate.css": "^4.1.1",
     "bulma-carousel": "^4.0.24",
     "core-js": "^3.25.3",
     "grapesjs": "^0.21.8",
