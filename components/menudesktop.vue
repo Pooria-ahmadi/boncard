@@ -7,15 +7,15 @@
             <a class="pt-1" href="/">
               <img src="logo.png" class="logo" />
             </a>
-            <a class="navbar-item mr-6 has-text-weight-semibold" href="#">
+            <NuxtLink class="navbar-item mr-6 has-text-weight-semibold" to="/boncard">
               بن کارت
-            </a>
-            <a class="navbar-item has-text-weight-semibold" href="#">
+            </NuxtLink>
+            <NuxtLink to="/contactus" class="navbar-item has-text-weight-semibold">
               پشتیبانی
-            </a>
-            <a class="navbar-item has-text-weight-semibold" href="#">
+            </NuxtLink>
+            <NuxtLink class="navbar-item has-text-weight-semibold" to="/Organization-services">
               خدمات به سازمان
-            </a>
+            </NuxtLink>
           </div>
 
         </div>

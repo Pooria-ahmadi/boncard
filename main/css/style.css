@@ -1,26 +1,140 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~/fonts/Vazir.eot');
+  src: url('~/fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('~/fonts/Vazir.woff2') format('woff2'), 
+  url('~/fonts/Vazir.woff') format('woff'), 
+  url('~/fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('~/fonts/Vazir-Bold.eot');
+  src: url('~/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('~/fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('~/fonts/Vazir-Bold.woff') format('woff'), 
+  url('~/fonts/Vazir-Bold.ttf') format('truetype');
+ }
+ .direction-img-left-question {
+  float: inline-start;
+}
+.border-question-box {
+  border-radius: 5px;
+}
+.collapse-transition {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.collapsed {
+  max-height: 0px;
+}
 .line-height-description {
   line-height: 2.5em;
 }
+.font-family {
+  font-family: vazir;
+}
+.slideshow-container {
+  max-width: 1507px;
+  position: relative;
+  width: 100%;
+}
+.width-shadow-slider{
+  width: 100%;
+}
+.Caption-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -45px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+@media only screen and (min-width: 400px) {
+  .mySlides{
+    overflow: hidden;
+    height: 144px;
+  }
+  .tittle-on-poster {
+    position: absolute;
+    top: 35%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 180px;
+  }
+  .subtittle-on-poster{
+    position: absolute;
+    top:58%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+  }
+  
+}
 @media only screen and (min-width: 1200px) {
+  .mySlides{
+    overflow: hidden;
+    height: 460px;
+  }
   .margin {
     margin-right: 120px;
   }
+  .tittle-on-poster {
+    position: absolute;
+    top: 35%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    width: 380px;
+  }
+  .subtittle-on-poster{
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    font-size: 22px;
+    right: 0%;
+  }
+  
 }
 .dot{
   list-style: disc outside;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-top: 1em;
 }
-.poster {
-  position: relative;
-}
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 71%;
-  transform: translate(-50%, -50%);
-}
-.z-index-box{
-  z-index: -1;
-}

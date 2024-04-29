@@ -1,9 +1,17 @@
 <template>
     <div>
         <div class="poster has-text-centered has-text-info-dark is-hidden-mobile">
-            <img src="contactus.jpg" alt="Cheese-poster" style="width: 100%;">
-            <div class="centered is-size-2 has-text-weight-semibold">تماس با ما</div>
-        </div>
+      <img src="contactus.jpg" alt="Cheese-poster" style="width: 100%;">
+      <div class="tittle-on-poster is-size-3 has-text-weight-semibold">تماس با ما</div>
+    </div>
+    <div class="is-hidden-desktop animate__animated animate__bounce">
+      <div class="has-text-centered">
+        <img src="contactus.png" alt="">
+      </div>
+      <h1 class="has-text-centered is-size-4 has-text-info-dark is-hidden-deskto has-text-weight-semibold">
+        تماس با ما
+      </h1>
+    </div>
         <div class="columns is-justify-content-center mt-6 mx-5">
             <div class="box column is-two-thirds has-background-white-ter">
                 <p class="has-text-weight-bold mr-4 my-4">

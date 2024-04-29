@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Boncard',
+    title: 'بن کارت سازمانی بن ایران',
     htmlAttrs: {
       lang: 'fa',
       dir:'rtl',
@@ -21,11 +21,13 @@ export default {
   css: [
     'bulma/css/bulma.min.css',
     'main/css/style.css',
+    'aos/dist/aos.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/animate.js', mode: 'client' }
+    { src: '~/plugins/animate.js', mode: 'client' },
+    { src: '~/plugins/aos.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
