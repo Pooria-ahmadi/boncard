@@ -1,36 +1,75 @@
 <template>
-    <div>
-      <div class="poster has-text-centered has-text-info-dark is-hidden-mobile">
-      <img src="header_bonus_card.jpg" alt="Cheese-poster" style="width: 100%;">
-      <div class="tittle-on-poster is-size-3 has-text-weight-semibold">بن کارت فروشگاه</div>
+  <div class="font-family">
+    <div class="slideshow-test">
+      <img src="index-page.jpg" alt="بن کارت" style="width: 100%;">
+      <div class="tittle-on-poster has-text-info-dark has-text-weight-bold">بن کارت </div>
     </div>
-    <div class="is-hidden-desktop animate__animated animate__bounce">
-      <h1 class="has-text-centered is-size-4 has-text-info-dark is-hidden-deskto has-text-weight-semibold">
-        بن کارت فروشگاه
-      </h1>
-      <div class="has-text-centered mt-6">
-        <img src="header_bonus_card.png" alt="">
-      </div>
+    <div class="is-flex is-justify-content-center is-hidden-mobile">
+      <img src="stars.jpg" alt="Image 1">
+      <h1 class="pt-5 is-size-3">بهترین بن سازمانی</h1>
+      <img src="stars.jpg" alt="Image 2">
     </div>
-        <div class="my-6 ">
-            <div class="columns is-centered mx-4 is-vcentered animate-right">
+<div class="has-text-centered is-hidden-desktop">
+<img src="Screenshot.jpg" alt="">
+</div>
+    <div class="columns is-centered mx-4 is-vcentered" data-aos="fade-right">
       <div class="column line-height-description has-text-justified is-two-fifths margin">
-        <p class="is-size-3 mb-6 has-text-weight-semibold">
-          لورم ایپسوم
-        </p>
-        <p class="is-size-5">
-          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-          هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و
-          متخصصان را می طلبد
+        <h1 class="is-size-3 mb-6 has-text-weight-semibold ">
+          بن کارت فروشگاه
+        </h1>
+        <p class="is-size-6">
+
+          بن کارت، یک روش پرداخت الکترونیکی است که به افراد اجازه می‌دهد بدون نیاز به داشتن کارت اعتباری یا بانکی،
+          پرداخت‌های آنلاین انجام دهند. این سرویس بر اساس شماره موبایل کاربران فعال می‌شود و از طریق پیامک یا
+          اپلیکیشن‌های مختلف قابل استفاده است. با استفاده از بنکارت، افراد می‌توانند به راحتی و بدون نگرانی از سوء
+          استفاده مالی، خریدهای آنلاین خود را انجام دهند و به خدمات مختلف دسترسی پیدا کنند.
         </p>
       </div>
       <div class="column is-two-fifths margin">
         <div class="has-text-centered">
-          <img src="packgold.jpg" alt="">
+          <img src="credit-card3.jpg" alt="">
         </div>
       </div>
-    </div> 
-        </div>
     </div>
+    <div class="columns is-centered mx-0 is-vcentered " data-aos="fade-left">
+      <div class="column is-two-fifths">
+        <div class="has-text-centered">
+          <img src="credit-card2.jpg" alt="">
+        </div>
+      </div>
+      <div class="column line-height-description is-two-fifths margin">
+        <p class="is-size-3 mb-6 has-text-weight-semibold">
+          مزایای بن کارت فروشگاه
+        </p>
+        <ul class="is-size-6 line-height-description ">
+          <li>مجزا از سیستم بانکی کشور</li>
+          <li>دستگاه های متنوع</li>
+          <li>انواع کارت RFID و NFC</li>
+          <li>قابلیت چاپ اختصاصی کارت برای هر سازمان</li>
+       <li>استفاده از کیف پول برای کاربران</li>
+       <li>استفاده به عنوان کارت هدیه مناسبتی با طرح های دلخواه</li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="columns is-centered mx-4 is-vcentered" data-aos="fade-right">
+      <div class="column line-height-description has-text-justified is-two-fifths margin">
+        <h1 class="is-size-3 mb-6 has-text-weight-semibold ">
+          بن کارت فروشگاه
+        </h1>
+        <p class="is-size-6">
+
+          بن کارت، یک روش پرداخت الکترونیکی است که به افراد اجازه می‌دهد بدون نیاز به داشتن کارت اعتباری یا بانکی،
+          پرداخت‌های آنلاین انجام دهند. این سرویس بر اساس شماره موبایل کاربران فعال می‌شود و از طریق پیامک یا
+          اپلیکیشن‌های مختلف قابل استفاده است. با استفاده از بنکارت، افراد می‌توانند به راحتی و بدون نگرانی از سوء
+          استفاده مالی، خریدهای آنلاین خود را انجام دهند و به خدمات مختلف دسترسی پیدا کنند.
+        </p>
+      </div>
+      <div class="column is-two-fifths margin">
+        <div class="has-text-centered">
+          <img src="boncard.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 </template>

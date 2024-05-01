@@ -38,20 +38,9 @@
 .font-family {
   font-family: vazir;
 }
-.slideshow-container {
-  max-width: 1507px;
+.slideshow-test {
   position: relative;
-  width: 100%;
-}
-.width-shadow-slider{
-  width: 100%;
-}
-.Caption-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+
 }
 .dot {
   height: 15px;
@@ -83,6 +72,7 @@
   right: 0;
   border-radius: 0 3px 3px 0;
 }
+
 @media only screen and (min-width: 400px) {
   .mySlides{
     overflow: hidden;
@@ -98,10 +88,11 @@
   }
   .subtittle-on-poster{
     position: absolute;
-    top:58%;
-    right: -15%;
+    top: 58%;
+    left: 71%;
     transform: translate(-50%, -50%);
-    font-size: 12px;
+    font-size: 16px;
+    width: 180px;
   }
   
 }
@@ -123,12 +114,11 @@
   }
   .subtittle-on-poster{
     position: absolute;
-    top: 50%;
+    top: 61%;
     left: 71%;
     transform: translate(-50%, -50%);
-    width: 420px;
-    font-size: 22px;
-    right: 0%;
+    font-size: 20px;
+    width: 340px;
   }
   
 }

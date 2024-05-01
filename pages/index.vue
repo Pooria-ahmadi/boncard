@@ -1,9 +1,8 @@
 <template>
   <div class="font-family">
-    <div class="slideshow-container m-auto">
-
-<div v-for="(slide, index) in slides" :key="index" class="mySlides mx-0" v-show="index === currentSlide">
-  <img :src="slide.image" alt="بن کارت" class="width-shadow-slider mx-0">
+    <div class="slideshow-test">
+<div v-for="(slide, index) in slides" :key="index" v-show="index === currentSlide">
+  <img :src="slide.image" alt="بن کارت" style="width: 100%;">
   <div class="tittle-on-poster has-text-info-dark">{{ slide.caption }}</div>
   <div class="subtittle-on-poster  has-text-gray">{{ slide.subtittle }}</div>
 </div>
@@ -15,7 +14,7 @@
 <span v-for="(dot, index) in slides" :key="index" class="dot" :class="{ 'active': index === currentSlide }" @click="changeSlide(index)"></span> 
 </div>
 
-    <div class="columns is-centered mx-4 my-6 is-vcentered" data-aos="fade-right">
+    <div class="columns is-centered mx-4 is-vcentered" data-aos="fade-right">
       <div class="column line-height-description has-text-justified is-two-fifths margin">
         <h1 class="is-size-3 mb-6 has-text-weight-semibold ">
           بن کارت فروشگاه
@@ -30,14 +29,14 @@
       </div>
       <div class="column is-two-fifths margin">
         <div class="has-text-centered">
-          <img src="boncard.png" alt="">
+          <img src="credit-card4.jpg" alt="">
         </div>
       </div>
     </div>
-    <div class="columns is-centered mx-0 my-6 is-vcentered " data-aos="fade-left">
+    <div class="columns is-centered mx-0 is-vcentered " data-aos="fade-left">
       <div class="column is-two-fifths">
         <div class="has-text-centered">
-          <img src="boncard2.png" alt="">
+          <img src="credit-card1.jpg" alt="">
         </div>
       </div>
       <div class="column line-height-description is-two-fifths margin">
@@ -49,8 +48,8 @@
           <li>دستگاه های متنوع</li>
           <li>انواع کارت RFID و NFC</li>
           <li>قابلیت چاپ اختصاصی کارت برای هر سازمان</li>
-          <li>استفاده از کیف پول برای کاربران</li>
-          <li>استفاده به عنوان کارت هدیه مناسبتی با طرح های دلخواه</li>
+          <li><strong>...<NuxtLink to="/boncard">بیشتر</NuxtLink></strong></li>
+
         </ul>
       </div>
     </div>
@@ -88,7 +87,7 @@
     <div class="columns is-centered mx-4 my-6 is-vcentered">
       <div class="column line-height-description has-text-justified is-8 has-text-weight-semibold has-text-grey">
         <h1 class="is-size-3 mb-6 has-text-weight-semibold ">
-         بهترین بن سازمانی
+         درباره بن ایران
         </h1>
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
         روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
@@ -105,7 +104,7 @@
                 <span>
                   {{ item.titlecollaps }}
                 </span>
-                <img :src="item.isCollapsed ? '/up-arrow.png' : '/down-arrow.png'" alt="arrow-icon"
+                <img :src="item.isCollapsed ? 'up-arrow.png' : 'down-arrow.png'" alt="arrow-icon"
                   class="direction-img-left-question" />
               </p>
             </div>
@@ -125,7 +124,7 @@ export default {
     return {
       currentSlide: 0,
     slides: [
-      { image: 'index-page.jpg', caption: 'تکنولوژی امن برای پرداخت' , subtittle:'روشی ساده و امن برای پرداخت آنلاین'},
+      { image: 'bon.jpg', caption: 'تکنولوژی امن برای پرداخت' , subtittle:'روشی ساده و امن برای پرداخت آنلاین'},
       { image: 'header_bonus_card.jpg', caption: 'پرداخت با بن کارت', subtittle:'پرداخت آنلاین با استفاده از شماره موبایل.' },
     ],
     collapses: [
