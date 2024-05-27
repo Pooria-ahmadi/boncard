@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-family">
     <div class="columns is-centered mx-4 my-6 is-vcentered">
       <div class="column line-height-description has-text-justified is-two-fifths margin">
         <h1 class="is-size-3 mb-6 has-text-weight-semibold">
@@ -14,7 +14,7 @@
       </div>
       <div class="column is-two-fifths margin">
         <div class="has-text-centered">
-          <img src="packgold.jpg" alt="">
+          <img src="packgold.jpg" alt="انواع پکیج بن کارت">
         </div>
       </div>
     </div> 

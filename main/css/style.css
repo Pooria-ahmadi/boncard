@@ -18,6 +18,24 @@
   url('~/fonts/Vazir-Bold.woff') format('woff'), 
   url('~/fonts/Vazir-Bold.ttf') format('truetype');
  }
+ .phone-image {
+  position: fixed;
+  bottom: 20px;
+  left: 27px;
+}
+.phone-image.animate {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
  .direction-img-left-question {
   float: inline-start;
 }

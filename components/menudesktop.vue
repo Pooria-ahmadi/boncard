@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="font-family">
         <div class="box is-hidden-mobile py-3">
       <div class="columns">
         <div class="column is-half py-0">
@@ -10,7 +10,7 @@
             <NuxtLink class="navbar-item mr-6 has-text-weight-semibold" to="/boncard">
               بن کارت
             </NuxtLink>
-            <NuxtLink to="/contactus" class="navbar-item has-text-weight-semibold">
+            <NuxtLink class="navbar-item has-text-weight-semibold" to="/contactus">
               پشتیبانی
             </NuxtLink>
             <NuxtLink class="navbar-item has-text-weight-semibold" to="/Organization-services">
