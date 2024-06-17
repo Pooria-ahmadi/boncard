@@ -26,7 +26,6 @@
 .phone-image.animate {
   animation: bounce 2s infinite;
 }
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -115,6 +114,10 @@
   
 }
 @media only screen and (min-width: 1200px) {
+  .Full-page-size{
+    width: 1349px; 
+    margin: auto;
+  }
   .mySlides{
     overflow: hidden;
     height: 460px;
@@ -142,7 +145,5 @@
 }
 .dot{
   list-style: disc outside;
-  margin-left: 1em;
-  margin-top: 1em;
 }
 

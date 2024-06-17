@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'بن کارت سازمانی بن ایران',
+    title: ' کارت سازمانی بن ایران',
     htmlAttrs: {
       lang: 'fa',
       dir:'rtl',
@@ -13,7 +13,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logotitle.ico' },
     ]
   },
 

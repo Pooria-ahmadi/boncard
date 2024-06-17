@@ -1,8 +1,8 @@
 <template>
   <div class="font-family">
-    <h1 class="has-text-centered has-text-weight-bold my-6 is-size-4 has-background-grey-light py-6"> بن ایران،
+    <h1 class="has-text-centered has-text-weight-bold my-6 is-size-4 has-background-grey-light py-6 px-6"> {{ sharedVariable }}،
       تسهیل تراکنش مالی شما در تجارت الکترونیک</h1>
-    <div class="has-text-centered my-5">
+    <div class="has-text-centered my-5 mx-6">
       <video width="700" controls>
         <source src="invideo-ai.mp4" type="video/mp4">
       </video>
@@ -18,7 +18,7 @@
         کسب‌وکارها و بهبود تجربه کاربری سایت‌های فروشگاهی می‌انجامد.
       </div>
     </div>
-    <h1 class="has-text-centered is-size-4">در بن ایران چه می گذرد؟</h1>
+    <h1 class="has-text-centered is-size-4">در {{ sharedVariable }} چه می گذرد؟</h1>
     <div class="columns is-centered mx-5 my-5">
       <div class="column line-height-description has-text-justified is-two-fifths">
         <p class="is-size-6">
@@ -38,10 +38,16 @@
 </template>
 <script>
 export default {
+  computed: {
+    sharedVariable() {
+      return this.$store.getters.sharedVariable;
+    }
+  },
   head() {
     return {
       title: 'درباره ما',
     }
-  }
+  },
+
 }
 </script>
